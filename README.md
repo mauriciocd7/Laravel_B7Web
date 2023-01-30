@@ -9,5 +9,5 @@ Laravel Environment
 
 # What_i_learned
 - Laravel is a framework full stack that folder resources compiled front-end files to edit in public 
-- 
-- 
+- Command "php artisan serve" to start server.
+- routes/web.php is my router

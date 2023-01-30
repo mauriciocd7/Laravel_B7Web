@@ -3,14 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 /*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
+ O router NÂO deve ter acesso a view. Por default ele tem e deve-se configurar para que o controller tenha esse papel.
 */
 
 Route::get('/', function () {
