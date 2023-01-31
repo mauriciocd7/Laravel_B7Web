@@ -14,6 +14,6 @@ class SiteController extends Controller
         return view('welcome');
     }
     public function exit(){
-        return ;
+        return view('sair');
     }
 }
