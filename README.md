@@ -8,6 +8,6 @@ Laravel Environment
 - Access url https://laravel.com/docs/ chose installation via composer to create more auto configs. 
 
 # What_i_learned
-- Laravel is a framework full stack that folder resources compiled front-end files to edit in public 
+- Laravel is a framework full stack that folder resources compiled front-end files to edit in public. 
 - Command "php artisan serve" to start server.
-- routes/web.php is my router
+- routes/web.php is my router and i need edit to redirect and create controller in MVC architecture.
