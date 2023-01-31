@@ -11,6 +11,6 @@ class SiteController extends Controller
         // Logica
         // Verificar se usuário existe
         // Buscar dados de um usuário.
-        return 'Hello world controller'
+        return view('welcome');
     }
 }

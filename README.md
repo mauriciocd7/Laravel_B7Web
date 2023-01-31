@@ -11,4 +11,5 @@ Laravel Environment
 - Laravel is a framework full stack that folder resources compiled front-end files to edit in public. 
 - Command "php artisan serve" to start server.
 - Routes/web.php is my router and i need edit to redirect and create controller in MVC architecture.
-- Create controller use command "create artisan make:controller"
+- Create controller use command "create artisan make:controller".
+- 
