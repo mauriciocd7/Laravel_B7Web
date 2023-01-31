@@ -3,9 +3,9 @@
 use App\Http\Controllers\SiteController;
 use Illuminate\Support\Facades\Route;
 
-
+//Cada rota referencia endereço de cada controller.
 Route::get('/', [SiteController::class, 'index']);
-Route::get('/', [sairController::class, 'sair']);
+Route::get('/sair', [SiteController::class, 'exit']); //referencia o caminho url '/', class e o método.
 
 // O router NÂO deve ter acesso a view. Por default ele tem e deve-se configurar para que o controller tenha esse papel.
 // Vem como default do laravel, deve-se alterar para o modelo de código acima caso queira usar o MVC.
