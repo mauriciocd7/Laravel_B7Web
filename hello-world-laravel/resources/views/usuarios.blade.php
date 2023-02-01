@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bem Vindo</title>
+    <title>Document</title>
 </head>
 <body>
-    <h1>Nome: {{$nameViewExample}}</h1> 
-    <h1>Idade: {{$age}}</h1>
-    <hr><hr>
-    
+    <!--Quantidade recebida por requisição definida no controller e chamada na rota-->
+    <h5>Atualmente temos: {{$quantidade}} usuarios</h5>
 </body>
 </html>
