@@ -11,7 +11,12 @@ class SiteController extends Controller
         // Logica
         // Verificar se usuário existe
         // Buscar dados de um usuário.
-        return view('welcome');
+
+        $name = 'testNamexxxx';
+
+        return view('welcome', [
+            'nameViewExample' => $name
+        ]);
     }
     public function exit(){
         return view('sair');
