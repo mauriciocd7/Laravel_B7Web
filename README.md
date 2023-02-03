@@ -12,4 +12,3 @@ Laravel Environment
 - Command "php artisan serve" to start server.
 - Routes/web.php is my router and i need edit to redirect and create controller in MVC architecture.
 - Create controller use command "create artisan make:controller".
-- 
