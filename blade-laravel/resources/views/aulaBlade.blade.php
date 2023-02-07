@@ -17,5 +17,21 @@
     <h4>Aula Blade 2</h4>
     <h5>{{$nome == 'teste' ? 'Sim' : 'Não'}}</h5> <!-- If ternário -->
 
+    @if($nome == 'Mauricio') <!--Verificação por diretiva por bloco-->
+        <h3>Sim</h3>
+    @elseif($nome == 'teste')
+        <h3>teste elseif</h3>
+    @else    
+        <h3>Não é nenhum</h3>
+    @endif    
+
+    <hr>
+
+    <h4>Aula Blade 3</h4>
+
+    @for($i=1;$i<=10;$i++)
+        <p>O valor de i é: {{$i}}</p>
+    
+
 </body>
 </html>
