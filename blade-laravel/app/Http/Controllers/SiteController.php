@@ -14,7 +14,17 @@ class SiteController extends Controller
             'html' => '<b style="color:red">bold</b>'
         ];
 
-        return view('aulaBlade', $data);
+        $array = [
+            'ingredientes' => [
+                'farinha',
+                'ovos',
+                'cenoura',
+                'ovos 2'
+            ]
+        ];
+
+
+        return view('aulaBlade', $data, $array);
 
     }
 }

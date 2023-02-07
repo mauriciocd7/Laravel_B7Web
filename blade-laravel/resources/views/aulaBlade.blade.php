@@ -17,7 +17,7 @@
     <h4>Aula Blade 2</h4>
     <h5>{{$nome == 'teste' ? 'Sim' : 'Não'}}</h5> <!-- If ternário -->
 
-    @if($nome == 'Mauricio') <!--Verificação por diretiva por bloco-->
+    @if($nome == 'Mauricio') <!--Verificação de diretiva por bloco-->
         <h3>Sim</h3>
     @elseif($nome == 'teste')
         <h3>teste elseif</h3>
@@ -31,7 +31,15 @@
 
     @for($i=1;$i<=10;$i++)
         <p>O valor de i é: {{$i}}</p>
-    
+    @endfor
 
+    @for($i=0;$i<count($ingredientes);$i++)
+        <p>{{$ingredientes[$i]}}</p>
+    @endfor
+
+    <br>
+    @foreach($ingredientes as $ing)
+        <p>{{$ing}}
+    @endforeach
 </body>
 </html>
